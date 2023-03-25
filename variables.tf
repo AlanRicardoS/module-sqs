@@ -1,5 +1,5 @@
 variable "name" {
-  type = number
+  type = string
 }
 
 variable "delay_seconds" {
@@ -19,17 +19,5 @@ variable "receive_wait_time_seconds" {
 }
 
 variable "Environment" {
-  type = string
-}
-
-variable "maxReceiveCount" {
-  type = number
-}
-
-variable "name-queue" {
-  type = string
-}
-
-variable "redrivePermission" {
   type = string
 }
