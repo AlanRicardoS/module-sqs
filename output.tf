@@ -1,3 +1,3 @@
 output "arn" {
-  value = aws_db_instance.default.arn
+  value = aws_sqs_queue.terraform_queue.arn
 }
